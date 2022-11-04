@@ -1,5 +1,9 @@
 package org.example;
 
-public class Command {
+import java.util.Iterator;
+
+public abstract class Command {
+    String command;
+    abstract void command();
 
 }
